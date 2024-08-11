@@ -17,13 +17,13 @@ const Education = () => {
         },
         
         {
-            title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School,Pethappampatti",
+            title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School",
             date: "Jun 2019 - Apr 2021",
             description: "High school",
             icon: <FaSchoolFlag />,
         },
         {
-            title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School,Pethappampatti",
+            title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School",
             date: "Jun 2019 - Apr 2019",
             description: "Middle School",
             icon: <TbBellSchool />,
