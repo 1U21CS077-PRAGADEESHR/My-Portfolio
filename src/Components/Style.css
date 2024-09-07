@@ -39,5 +39,11 @@
     
     border-radius: 12px;
   }
+
+    
+    ::selection {
+      color: white;
+      background: #F87171 ;
+    }
   
   

@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineSchool } from "react-icons/md";
 import { FaSchoolFlag } from "react-icons/fa6";
 import { TbBellSchool } from "react-icons/tb";
+import { FaComputer } from "react-icons/fa6";
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
@@ -15,7 +16,13 @@ const Education = () => {
             description: "Bachelor of Science in Computer Science",
             icon: <MdOutlineSchool />,
         },
-        
+        {
+          title: "Error Makes Clever Academy",
+          date: "April 2024 - Aug 2024",
+          description: "Full stack web Development Course(MERN)",
+          icon: <FaComputer />,
+        }
+        ,
         {
             title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School",
             date: "Jun 2019 - Apr 2021",
@@ -24,7 +31,7 @@ const Education = () => {
         },
         {
             title: "Rajalakshmi Genguswamy Matriculation Higher Secondary School",
-            date: "Jun 2019 - Apr 2019",
+            date: "Jun 2018 - Apr 2019",
             description: "Middle School",
             icon: <TbBellSchool />,
         },

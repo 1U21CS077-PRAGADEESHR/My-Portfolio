@@ -2,6 +2,8 @@ import React from 'react';
 import about from '../assets/project/about.gif';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { IoArrowForwardCircleOutline } from "react-icons/io5";
+
 
 const About = () => {
   const { ref, inView } = useInView({
@@ -26,7 +28,7 @@ const About = () => {
             initial={{ y: -50, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
             transition={{ delay: 0.2, type: 'spring', stiffness: 300, damping: 20 }}>
-            <span className='border-b-4 border-gray-500 '>About</span>
+            <span className='border-b-4 border-gray-500 '>About <span className='text-red-400'>me</span></span>
           </motion.h1>
 
           <div className='flex justify-center items-center flex-wrap'>
@@ -35,7 +37,7 @@ const About = () => {
               initial={{ x: -50, opacity: 0 }}
               animate={inView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
               transition={{ delay: 0.2, type: 'spring', stiffness: 300, damping: 20 }}>
-                Hi! I’m <span className='text-red-400'>Pragadeesh</span>, a MERN stack developer. I recently completed a three-month MERN stack course and have been self-learning to enhance my skills further. I’m dedicated to writing clean, efficient code and continuously exploring the latest technologies. Let’s connect and bring your project to life!
+                Hi! I’m <span className='text-red-400'>Pragadeesh</span>, a MERN stack developer. I have completed an extensive MERN stack course and have executed impactful projects. My skills were honed during a one-month web development Internship and have been self-learning to enhance my skills further. Let’s connect and bring your project to life!
             </motion.p>
             <p className='flex-2'>
               <motion.img 
@@ -47,6 +49,17 @@ const About = () => {
                 transition={{ delay: 0.6, duration: 0.5, type: 'spring', stiffness: 300, damping: 20 }}/>
             </p>
           </div>
+          <div className=''>
+            <motion.button className='text-white flex items-center gap-2 text-xl rounded-md 
+            bg-gradient-to-r from-red-400 to-[#F16A6A] w-fit  px-6 py-3 my-2 group'
+             initial={{x:50,opacity:0}}
+             animate={{x:0,opacity:1}}>         
+             
+             <a href='./certificate.png' target='_blank'>Certificate</a>  <span className='group-hover:rotate-90 text-2xl duration-300'>
+              <IoArrowForwardCircleOutline /></span></motion.button>
+            </div>
+            
+
         </div>
       </div>
     </motion.div>
