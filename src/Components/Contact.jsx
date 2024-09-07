@@ -18,8 +18,6 @@ const Contact = () => {
             child: <FaWhatsapp size={30} />,
             href: 'https://wa.me/9360350231',
             hoverColor:"hover:text-green-500"
-            
-
         },
         {
             id: 2,

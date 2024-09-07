@@ -28,7 +28,7 @@ const About = () => {
             initial={{ y: -50, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
             transition={{ delay: 0.2, type: 'spring', stiffness: 300, damping: 20 }}>
-            <span className='border-b-4 border-gray-500 '>About <span className='text-red-400'>me</span></span>
+            <span className='border-b-4 border-gray-500 '>About</span>
           </motion.h1>
 
           <div className='flex justify-center items-center flex-wrap'>
@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className=''>
             <motion.button className='text-white flex items-center gap-2 text-xl rounded-md 
-            bg-gradient-to-r from-red-400 to-[#F16A6A] w-fit  px-6 py-3 my-2 group'
+            bg-gradient-to-r from-red-400 to-[#F16A6A] w-fit  px-6 py-3 my-4 ml-10 group'
              initial={{x:50,opacity:0}}
              animate={{x:0,opacity:1}}>         
              

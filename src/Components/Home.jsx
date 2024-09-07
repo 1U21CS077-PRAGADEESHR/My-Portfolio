@@ -5,7 +5,6 @@ import './Style.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {motion} from 'framer-motion'
 
-
 const Home = () => {
 
   const [text] = useTypewriter({

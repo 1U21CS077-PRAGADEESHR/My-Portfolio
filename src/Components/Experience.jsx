@@ -112,7 +112,7 @@ const Experience = () => {
       <div className='max-w-screen-lg flex flex-col justify-center w-full h-full mx-auto '>
         <div className='mt-10  flex justify-center'>
           <p className='text-4xl text-white font-bold border-b-4 border-gray-500  p-2 inline mb-10'>
-           Skills & <span className='text-red-400'>Experience</span>
+           Skills & Experience
           </p>
           
           
